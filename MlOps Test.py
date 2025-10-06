@@ -33,5 +33,7 @@ print(f"\nNumber of rows where 'A' > mean ({mean_A:.2f}):", len(filtered_df))
 grouped_stats = df.groupby('Category').mean(numeric_only=True)
 print("\nGrouped Means by Category:\n", grouped_stats)
 
-df.to_csv("test.csv",index=False)
+# Just a comment to change
+df.to_csv("test.csv", index=False)
+
 
